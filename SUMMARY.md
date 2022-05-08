@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Devpos](README.md)
+* [DevOps](README.md)
 
 ## Appium
 
