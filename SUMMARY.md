@@ -3,7 +3,7 @@
 
 ## Appium
 
-* [Appium](appium/Appium-Setting.md)
+* [Appium 安裝與設定](appium/Appium-Setting.md)
 * [Appium 執行測試](appium/Appium-use-test.md)
 * [Appium Test Code](appium/Appium-Test-Code.md)
 * [Appium Test Code 優化與完整化](appium/Appium%20Test%20Code%20優化與完整化.md)
