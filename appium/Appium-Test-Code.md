@@ -1,11 +1,11 @@
 ---
 title: Appium Test Code
 tags: test
-description:
 ---
+
 # Appium Test Code
 
-首先我們先在test裡新增一個Test Class，在Class加入下面的function。  
+首先我們先在test裡新增一個Test Class，在Class加入下面的function。
 
 ```kotlin
     fun getAppiumDriver(): AndroidDriver<MobileElement> {
@@ -21,19 +21,19 @@ description:
     }
 ```
 
-在我們解說Code之前先看一張圖  
-![Imgur](https://i.imgur.com/PDKe2Gs.png)  
+在我們解說Code之前先看一張圖\
+![Imgur](https://i.imgur.com/PDKe2Gs.png)\
 是的這個function就是做測試環境設定
-* MobileCapabilityType.PLATFORM_NAME: 測試平台，選擇Android
-* MobileCapabilityType.DEVICE_NAME: 手機/模擬器名稱
-* AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS: 是否同意系統授權
-* MobileCapabilityType.AUTOMATION_NAME: testing framework測試名稱
-* MobileCapabilityType.APP: apk放置路徑
-最後把設定資料傳給Appium Server(Server路徑可參考上圖上半部部分)  
+
+* MobileCapabilityType.PLATFORM\_NAME: 測試平台，選擇Android
+* MobileCapabilityType.DEVICE\_NAME: 手機/模擬器名稱
+* AndroidMobileCapabilityType.AUTO\_GRANT\_PERMISSIONS: 是否同意系統授權
+* MobileCapabilityType.AUTOMATION\_NAME: testing framework測試名稱
+* MobileCapabilityType.APP: apk放置路徑 最後把設定資料傳給Appium Server(Server路徑可參考上圖上半部部分)
 
 我們需要每次測試前設定與測試完之後關閉
-```kotlin
 
+```kotlin
     lateinit var appDriver: AndroidDriver<MobileElement>
     
     @Before
@@ -51,8 +51,10 @@ description:
 再來寫個簡單的測試碼
 
 流程
+
 1. 在Home頁點擊**換頁，不帶值**Button
 2. 畫面顯示**Not Value**
+
 ```kotlin
     @Test
     fun testAppChangerPage() {
@@ -65,19 +67,17 @@ description:
             }
         }
     }
-
 ```
 
-利用findelementByXPath找相對應的元素(XPath可利用Appium Inspector找)，並做相對應的動作。
-:::info
-除了利用Xpath找以外也有找id、text等方式
+利用findelementByXPath找相對應的元素(XPath可利用Appium Inspector找)，並做相對應的動作。&#x20;
 
-因XPath很長所以前半部相同部分我寫在另一個檔案裡方便共用
-:::
+> 除了利用Xpath找以外也有找id、text等方式
+>
+> 因XPath很長所以前半部相同部分我寫在另一個檔案裡方便共用
 
 完整的Code
-```kotlin
 
+```kotlin
 import io.appium.java_client.android.AndroidDriver
 import io.appium.java_client.MobileElement
 import io.appium.java_client.remote.AndroidMobileCapabilityType
@@ -133,8 +133,8 @@ class AppiumTest {
 ```
 
 Utily
-```kotlin
 
+```kotlin
 object Utily {
 
     val xPathName = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/" +
@@ -143,4 +143,5 @@ object Utily {
 ```
 
 測試結果:
-![Imgur](https://i.imgur.com/CD6XNMq.png)
+
+&#x20;![Imgur](https://i.imgur.com/CD6XNMq.png)

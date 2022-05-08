@@ -1,12 +1,14 @@
 ---
 title: Appium Test Code 優化與完整化
 tags: test
-description:
 ---
+
 # Appium Test Code 優化與完整化
+
 在上一篇中我們寫了一簡單的Test Code，但是裡面有部分程式碼會在寫其他Test Code重複出現，所以筆者把重複的Code提出來方便其他Test Case可以繼承而不用重複寫，成果如下
 
 BaseTest.kt
+
 ```kotlin
 package appium
 
@@ -54,6 +56,7 @@ open class BaseTest {
 ```
 
 Utily.kt
+
 ```kotlin
 object Utily {
 
@@ -64,11 +67,11 @@ object Utily {
     const val APK_PATH = "/Users/kannekichen/Desktop/app.apk"
     const val APPIUM_URL = "http://127.0.0.1:4723/wd/hub"
 }
-
 ```
 
-之後要改測試機、APK位置或Appium Server位置只要到Utily改就能一次改全部了。  
+之後要改測試機、APK位置或Appium Server位置只要到Utily改就能一次改全部了。\
 然後再把上一篇Test Code獨立出來，如下
+
 ```kotlin
 package appium
 
@@ -91,8 +94,6 @@ class HomeTest: BaseTest() {
 }
 ```
 
-最後再把其他頁面的Test Case完成
-完整Code GitHub連結: https://github.com/Pearce-Kanneki/Appium-Android-test
+最後再把其他頁面的Test Case完成 完整Code GitHub連結: \[Appium Code]\(https://github.com/Pearce-Kanneki/Appium-Android-test)
 
-其他參考:
-[Appium 常用API](https://www.cnblogs.com/juno3550/p/15505480.html)
+其他參考: [Appium 常用API](https://www.cnblogs.com/juno3550/p/15505480.html)
