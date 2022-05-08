@@ -67,7 +67,7 @@ iOS執行環境檢查指令
 
 > echo $ANDROID\_HOME
 
-執行結果:\
+執行結果:&#x20;
 ![Imgur](https://i.imgur.com/geXWDun.png)\
 若沒安裝或設定Android SDK則不會出現此路徑\
 未安裝可去Android Studio裡的SDK Manager裡選擇安裝.
