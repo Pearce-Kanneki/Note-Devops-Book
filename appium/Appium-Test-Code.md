@@ -132,7 +132,7 @@ class AppiumTest {
 }
 ```
 
-Utily.kt
+Utily
 
 ```kotlin
 object Utily {

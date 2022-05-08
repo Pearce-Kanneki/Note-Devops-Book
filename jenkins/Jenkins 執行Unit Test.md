@@ -30,7 +30,7 @@ tags: DevOps
 
 ### 測試Build
 
-完成設定後我們可以==Build Now==執行Build看是否可以正常執行
+完成設定後我們可以`Build Now`執行Build看是否可以正常執行
 
 執行結果&#x20;
 

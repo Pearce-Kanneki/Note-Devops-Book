@@ -23,7 +23,8 @@ Jenkins是由Java撰寫的開源持續整合工具，有豐富的功能可提供
 等待建置中～\
 &#x20;![Imgur](https://i.imgur.com/7zY33ho.png)
 
-建制完之後會顯示以下畫面，這時我們需要到Terminal找Passwrod ![Imgur](https://i.imgur.com/PcfBTKD.png)
+建制完之後會顯示以下畫面，這時我們需要到Terminal找Passwrod \
+![Imgur](https://i.imgur.com/PcfBTKD.png)
 
 1. 輸入密碼到網頁中(下圖紅色圈起處貼到網頁)\
    &#x20;![Imgur](https://i.imgur.com/VooDnle.png)

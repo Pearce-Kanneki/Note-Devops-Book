@@ -94,6 +94,6 @@ class HomeTest: BaseTest() {
 }
 ```
 
-最後再把其他頁面的Test Case完成 完整Code GitHub連結: [Appium Test Code](https://github.com/Pearce-Kanneki/Appium-Android-test)
+最後再把其他頁面的Test Case完成 完整Code GitHub連結: \[Appium Code]\(https://github.com/Pearce-Kanneki/Appium-Android-test)
 
 其他參考: [Appium 常用API](https://www.cnblogs.com/juno3550/p/15505480.html)
