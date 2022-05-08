@@ -1,0 +1,41 @@
+{
+    "author": "Kanneki",
+    "description": "This is a Devpos book created by gitbook",
+    "extension": null,
+    "generator": "site",
+    "links": {
+      "sidebar":{
+        "你的部落格" : ""
+      }
+    },
+  
+    "language": "zh",
+    "plugins": [
+          "-lunr",
+          "-search",
+          "search-pro",
+          "chapter-fold",
+          "expandable-chapters",
+          "splitter",
+          "back-to-top-button",
+          "hide-element",
+          "chapter-numbering",
+          "code",
+          "popup",
+          "youtubex",
+          "click-reveal",
+          "auto-scroll-table",
+          "pageview-count",
+          "todo",
+          "ancre-navigation",
+          "flexible-alerts",
+          "js-sequence-diagram-full@>=0.3.1",
+          "mermaid"
+        ],
+    "pluginsConfig": {
+      "hide-element": {
+          "elements": [".gitbook-link"]
+      }
+    }
+  }
+  
