@@ -11,14 +11,16 @@ Jenkins是由Java撰寫的開源持續整合工具，有豐富的功能可提供
 
 接下的Jenkins會裝Docker版本，所以需要一些Docker基本知識與操作，若對Docker不熟或不了解的話可能在安裝時會有不懂這個步驟在做什麼的問題(不影響Jenkins操作)。
 
-測試環境: MacOS 其他需要的工具: Docker Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkins/jenkins)
+測試環境: MacOS 
+其他需要的工具: Docker 
+Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkins/jenkins)
 
 1.  安裝jenkins Container
 
     > docker pull jenkins/jenkins
 2.  用下面這段指令啟動Jenkins
 
-    > docker run --rm -u root -p 8080:8080 \ -v /Users/kannekichen/Library/Android/sdk:/usr/local/android-sdk \ -v /var/run/docker.sock:/var/run/docker.sock \ -v jenkins-data:/var/jenkins\_home \ jenkins/jenkins
+    > docker run --rm -u root -p 8080:8080 -v /Users/kannekichen/Library/Android/sdk:/usr/local/android-sdk -v /var/run/docker.sock:/var/run/docker.sock -v jenkins-data:/var/jenkins\_home jenkins/jenkins
 
 等待建置中～\
 &#x20;![Imgur](https://i.imgur.com/7zY33ho.png)
@@ -28,7 +30,7 @@ Jenkins是由Java撰寫的開源持續整合工具，有豐富的功能可提供
 
 1. 輸入密碼到網頁中(下圖紅色圈起處貼到網頁)\
    &#x20;![Imgur](https://i.imgur.com/VooDnle.png)
-2.  若無特別需求選擇==安裝推薦的外掛==就可以了\
+2.  若無特別需求選擇`安裝推薦的外掛`就可以了\
     &#x20;![Imgur](https://i.imgur.com/mfi9t0B.png)
 
     安裝等待中～\
