@@ -11,8 +11,8 @@ Jenkins是由Java撰寫的開源持續整合工具，有豐富的功能可提供
 
 接下的Jenkins會裝Docker版本，所以需要一些Docker基本知識與操作，若對Docker不熟或不了解的話可能在安裝時會有不懂這個步驟在做什麼的問題(不影響Jenkins操作)。
 
-測試環境: MacOS 
-其他需要的工具: Docker 
+測試環境: MacOS \
+其他需要的工具: Docker \
 Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkins/jenkins)
 
 1.  安裝jenkins Container

@@ -12,4 +12,5 @@
 ## Jenkins
 
 * [Jenkins 安裝與設定](<jenkins/Jenkins 安裝與設定.md>)
+* [Jenkins 自動建置](<jenkins/Jenkins 自動建置.md>)
 * [Jenkins 執行Unit Test](<jenkins/Jenkins 執行Unit Test.md>)
