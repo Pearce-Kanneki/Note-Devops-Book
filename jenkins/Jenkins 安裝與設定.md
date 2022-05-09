@@ -28,39 +28,42 @@ Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkin
 
 建制完之後會顯示以下畫面，這時我們需要到Terminal找Passwrod
 
-
 ![](https://i.imgur.com/PcfBTKD.png)
 
 ### 1. 輸入密碼到網頁中(下圖紅色圈起處貼到網頁)
+
 ![](https://i.imgur.com/VooDnle.png)
 
 ### 2. 若無特別需求選擇`安裝推薦的外掛`就可以了
+
 ![](https://i.imgur.com/mfi9t0B.png)
 
-安裝等待中～
+安裝等待中～&#x20;
+
 ![](https://i.imgur.com/HwqNsmQ.png)
 
-
 ### 3. 建立管理者帳號密碼，下一步
+
 ![](https://i.imgur.com/tj4HRkZ.png)
 
 ### 4. 設定URL(這邊我們不變更)，下一步
+
 ![](https://i.imgur.com/7gBVbQJ.png)
 
 ### 5. 完成囉
 
 ![](https://i.imgur.com/igt8WyA.png)
 
-
-
 ## 環境設定
 
 ### 設定Android Home
 
 #### 1. 在Jenkins首頁點選`Manage Jenkins`
+
 ![Imgur](https://i.imgur.com/rsWujym.png)
 
 #### 2. 再點選 `Configure Sytem`
+
 ![Imgur](https://i.imgur.com/SGs2sKd.png)
 
 #### 3. 在`Global properties`裡設定Android\_Home 圖片修正中
