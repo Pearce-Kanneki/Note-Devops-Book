@@ -49,7 +49,9 @@ iOS執行環境檢查指令
 > appium-doctor --ios
 
 執行結果(Android):\
-![Imgur](https://i.imgur.com/EjmDZki.png)
+
+
+![](https://i.imgur.com/EjmDZki.png)
 
 確認哪些尚未設定或安裝，**WARN**項目可忽略。
 
@@ -59,18 +61,25 @@ iOS執行環境檢查指令
 
 > /usr/libexec/java\_home
 
-執行結果: ![Imgur](https://i.imgur.com/lRyHDFF.png)\
+執行結果:
+
+&#x20;\
 若沒安裝java則不會出現此路徑\
 未安裝可去Java官網下載安裝。
+
+![](https://i.imgur.com/lRyHDFF.png)
 
 查看Android SDK設定
 
 > echo $ANDROID\_HOME
 
-執行結果:\
-![Imgur](https://i.imgur.com/geXWDun.png)\
+執行結果:
+
+&#x20;\
 若沒安裝或設定Android SDK則不會出現此路徑\
 未安裝可去Android Studio裡的SDK Manager裡選擇安裝.
+
+![](https://i.imgur.com/geXWDun.png)
 
 ## 配置JAVA與Android環境變數
 
@@ -90,13 +99,11 @@ export PATH=${PATH}$JAVA_HOME/bin
 ```
 
 > 裡面內容的{UserName}請輸入自己使用者名稱\
-> &#x20;{version}請輸入JAVA版本
+> {version}請輸入JAVA版本
 
+內容大概長這個樣子
 
-
-內容大概長這個樣子&#x20;
-
-![Imgur](https://i.imgur.com/9nEsO6S.png)&#x20;
+![Imgur](https://i.imgur.com/9nEsO6S.png)
 
 ps. 前面2個區塊可以忽視，那是設定flutter環境用的與本次appium環境無關。
 
@@ -121,12 +128,16 @@ ps. 此指令會執行到關機,所以電腦重開機之後需要再次執行此
 
 1. 開啟Appium Server GUI
 2. 開啟之後點擊Edit Conigurations(如下圖)\
-   &#x20;![Imgur](https://i.imgur.com/JbZXqZ0.png)
+
 3. 確認是否有設定**ANDROID\_HOME**和**JAVA\_HOME**\
    配置路徑可參考**配置JAVA與Android環境變數**章節查詢路徑\
-   ![Imgur](https://i.imgur.com/9jcqr44.png)
+
 4. 配置完後儲存重啟
 5. 點擊Start Serer起動
+
+![](https://i.imgur.com/9jcqr44.png)
+
+![](https://i.imgur.com/JbZXqZ0.png)
 
 ### Appium-Inspector
 

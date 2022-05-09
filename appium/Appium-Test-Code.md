@@ -22,8 +22,10 @@ tags: test
 ```
 
 在我們解說Code之前先看一張圖\
-![Imgur](https://i.imgur.com/PDKe2Gs.png)\
+\
 是的這個function就是做測試環境設定
+
+![](https://i.imgur.com/PDKe2Gs.png)
 
 * MobileCapabilityType.PLATFORM\_NAME: 測試平台，選擇Android
 * MobileCapabilityType.DEVICE\_NAME: 手機/模擬器名稱
@@ -132,7 +134,7 @@ class AppiumTest {
 }
 ```
 
-Utily
+Utily.kt
 
 ```kotlin
 object Utily {
@@ -144,4 +146,6 @@ object Utily {
 
 測試結果:
 
-&#x20;![Imgur](https://i.imgur.com/CD6XNMq.png)
+&#x20;
+
+![](https://i.imgur.com/CD6XNMq.png)

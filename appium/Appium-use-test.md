@@ -11,7 +11,9 @@ description: appium 測試工具說明
 ## Appium Inspector 開啟與設定
 
 開啟Appium Inspector出現下圖畫面\
-&#x20;![Imgur](https://i.imgur.com/VBZVymH.png)
+&#x20;
+
+![](https://i.imgur.com/VBZVymH.png)
 
 注意: 若Appium非2.0版本則必須在紅色框框內輸入`/wd/hub`，2.0版本則是`/`(也可以不輸入)，詳細說明請看[官方說明](https://github.com/appium/appium-inspector#important-migration-notes)
 
@@ -34,20 +36,26 @@ description: appium 測試工具說明
 * app: apk放置路徑
 
 輸入後會大概長這個樣子\
-![Imgur](https://i.imgur.com/PDKe2Gs.png)
+
+
+![](https://i.imgur.com/PDKe2Gs.png)
 
 最後點擊右下角的**Start Session**就能查看元素了\
 ps.在點擊之前確認Appium Service和手機/虛擬機是否有啟動。
 
 最後結果:\
-![Imgur](https://i.imgur.com/WGlHUOv.png)
+
+
+![](https://i.imgur.com/WGlHUOv.png)
 
 ## 查看Android UI 元素
 
 ### UI介面說明
 
 接下來簡單說明介面有哪些功能\
-&#x20;![Imgur](https://i.imgur.com/92gbnPl.png)
+&#x20;
+
+![](https://i.imgur.com/92gbnPl.png)
 
 左邊是App上面的畫面(也就是實機畫面)，中間則是畫面的Source Code(未必是工程師寫的Code，像這個專案我是用Jetpack Compose畫出來的與這邊顯示的Code差異很大)，右邊則是被選的元件詳細資料(這邊資料很重要等等我們要寫的Code會參考這邊)。
 
@@ -65,9 +73,9 @@ ps.在點擊之前確認Appium Service和手機/虛擬機是否有啟動。
 `下面的操作可能因版本不同而按鍵或流程不同，參考就好`
 
 1. 首先我們點擊 **New Project** 開啟新專案\
-   &#x20;![Imgur](https://i.imgur.com/BgZzqGx.png)
+   &#x20;
 2. 再來New Project，專案名稱與存放位置自己決定，Languge選Kotlin，Build system選Gradle，剩下的不用調整我們可以點Create開啟專案囉!\
-   &#x20;![Imgur](https://i.imgur.com/CUIVp7G.png)
+   &#x20;
 3.  點擊build.gradle後找到`repositories`加入下面的程式碼
 
     ```groovy
@@ -83,3 +91,7 @@ ps.在點擊之前確認Appium Service和手機/虛擬機是否有啟動。
 
     我們需要使用junit撰寫Test Code,使用java-client連接appium
 4. 同步專案
+
+![](https://i.imgur.com/CUIVp7G.png)
+
+![](https://i.imgur.com/BgZzqGx.png)
