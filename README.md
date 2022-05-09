@@ -17,3 +17,4 @@ DevOps 是集文化哲學、實務與工具於一身的結合，可提升組織�
 
 * 若圖片顯示不清處可以點擊放大
 * 此筆記主要紀錄DevOps相關工具，不說明DevOps工作模式
+* [GitBook](https://kanneki-chen.gitbook.io/devops/)

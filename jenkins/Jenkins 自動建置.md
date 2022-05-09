@@ -11,7 +11,7 @@ tags: DevOps
 
 ### 0. 新增專案
 
-1. 點擊==New Item==開啟新專案\
+1. 點擊`New Item`開啟新專案\
    &#x20;![Imgur](https://i.imgur.com/bQkunNf.png)
 2. 輸入專案名稱，點擊`Freestyle project`\
    &#x20;![Imgur](https://i.imgur.com/0UZoduq.png)
