@@ -22,11 +22,11 @@ Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkin
 
     > docker run --rm -u root -p 8080:8080 -v /Users/kannekichen/Library/Android/sdk:/usr/local/android-sdk -v /var/run/docker.sock:/var/run/docker.sock -v jenkins-data:/var/jenkins\_home jenkins/jenkins
 
-等待建置中～\
+等待建置中～
 
 ![](https://i.imgur.com/7zY33ho.png)
 
-建制完之後會顯示以下畫面，這時我們需要到Terminal找Passwrod\
+建制完之後會顯示以下畫面，這時我們需要到Terminal找Passwrod
 
 
 ![](https://i.imgur.com/PcfBTKD.png)
@@ -53,10 +53,10 @@ Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkin
 
 ### 設定Android Home
 
-1. 在Jenkins首頁點選`Manage Jenkins`\
-   ![Imgur](https://i.imgur.com/rsWujym.png)
+#### 1. 在Jenkins首頁點選`Manage Jenkins`
+![Imgur](https://i.imgur.com/rsWujym.png)
 
-2. 再點選 `Configure Sytem`\
-   ![Imgur](https://i.imgur.com/SGs2sKd.png)
+#### 2. 再點選 `Configure Sytem`
+![Imgur](https://i.imgur.com/SGs2sKd.png)
 
-3. 在`Global properties`裡設定Android\_Home 圖片修正中
+#### 3. 在`Global properties`裡設定Android\_Home 圖片修正中
