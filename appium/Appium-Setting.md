@@ -127,17 +127,17 @@ ps. 此指令會執行到關機,所以電腦重開機之後需要再次執行此
 #### 設定與執行
 
 1. 開啟Appium Server GUI
-2. 開啟之後點擊Edit Conigurations(如下圖)\
+2. 開啟之後點擊Edit Conigurations(如下圖)
 
-3. 確認是否有設定**ANDROID\_HOME**和**JAVA\_HOME**\
-   配置路徑可參考**配置JAVA與Android環境變數**章節查詢路徑\
+![](https://i.imgur.com/JbZXqZ0.png)
 
-4. 配置完後儲存重啟
-5. 點擊Start Serer起動
+3\. 確認是否有設定**ANDROID\_HOME**和**JAVA\_HOME** 配置路徑可參考**配置JAVA與Android環境變數**章節查詢路徑
 
 ![](https://i.imgur.com/9jcqr44.png)
 
-![](https://i.imgur.com/JbZXqZ0.png)
+4\. 配置完後儲存重啟
+
+5\. 點擊Start Serer起動
 
 ### Appium-Inspector
 
