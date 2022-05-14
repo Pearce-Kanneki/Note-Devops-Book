@@ -121,3 +121,6 @@ tags: DevOps
 ![](https://i.imgur.com/DOioUK9.png)
 
 ![](https://i.imgur.com/9BZSyHt.png)
+
+參考資料: <br>
+[mobile CI/CD part2](https://medium.com/@carlitosdroid/dockerized-jenkins-for-mobile-ci-cd-part-2-7725f80006b)
