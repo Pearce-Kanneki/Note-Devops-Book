@@ -31,7 +31,7 @@ tags: DevOps
 
 ![](https://i.imgur.com/Uu9pjM5.png)
 
-接下來這些參數會在後面或者以後會用到\\
+接下來這些參數會在後面或者以後會用到
 
 ![Imgur](https://i.imgur.com/hcm5GCe.png)
 
@@ -43,9 +43,8 @@ tags: DevOps
 
 ### 4. Build Trigger
 
-設定完成Code儲存庫路徑後，可以在`Builder Trigger`設定，
-<br>
-設定方式可參考[Jenkins 參數說明設定](<jenkins/Jenkins 參數說明設定.md>)
+設定完成Code儲存庫路徑後，可以在`Builder Trigger`設定，\
+設定方式可參考[Jenkins 參數說明設定](jenkins/Jenkins%20%E5%8F%83%E6%95%B8%E8%AA%AA%E6%98%8E%E8%A8%AD%E5%AE%9A.md)
 
 ### 5. Build 構建設定
 
@@ -77,8 +76,7 @@ tags: DevOps
 
 ### 7.建構測試
 
-先選擇`Build with Parameters`， 然後再右邊選參數設定後Build\
-
+先選擇`Build with Parameters`， 然後再右邊選參數設定後Build\\
 
 ![](https://i.imgur.com/1DduGBU.png)
 
