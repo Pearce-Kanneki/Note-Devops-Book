@@ -16,3 +16,4 @@
 * [Jenkins 執行Unit Test](<jenkins/Jenkins 執行Unit Test.md>)
 * [Jenkins 執行UI Test](<jenkins/Jenkins 執行UI Test.md>)
 * [Jenkins 參數說明設定](<jenkins/Jenkins 參數說明設定.md>)
+* [Jenkins 通知設定](<jenkins/Jenkins 通知設定.md>)
