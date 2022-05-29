@@ -95,6 +95,39 @@ tags: DevOps
 
 ![Imgur](https://i.imgur.com/CsaxA3B.png)
 
+## Discord 通知
+Disocrd主要是給遊戲玩家使用的通訊軟體，與Slack(主要面向商業與小團隊)有些不同，使用機率也偏低，會寫這篇也是心血來潮而已。
+
+### Webhook
+點擊需要被發送的頻道按`編輯頻道`，如下圖
+<br>
+![Imgur](https://i.imgur.com/uSRqhHD.png)
+<br>
+先在左邊選擇`整合`，在點擊`查看Webhook`(若沒創立過則會顯示`建立Webhook`)
+<br>
+![Imgur](https://i.imgur.com/yYGNSbh.png)
+<br>
+創立機器人之後點擊`複製Webhook網址`，等等就會用到了
+<br>
+![Imgur](https://i.imgur.com/oITfcmm.png)
+
+### Jenkins設定
+到Jenkins裡的`Manage Jenkins`=>`Plugin Manager`確認是否有安裝`Discord Notifier`\
+![Imgur](https://i.imgur.com/e5TP4dP.png)
+
+### Project設定
+
+點擊要設定的Project之後點擊`Configure`，在`Post-build Actions`裡新增`Discord Notifier`如下圖\
+![Imgur](https://i.imgur.com/FGVqHfQ.png)
+<br>
+之後在`Webhook URL`貼上剛剛我們複製的網址\
+![Imgur](https://i.imgur.com/Fv7HDpu.png)
+<br>
+若需要詳細設定可點擊`Advanced`
+
+### 最終結果
+![Imgur](https://i.imgur.com/pkgXcVF.png)
+
 參考資料:
 
 [初探Jenkins(應用)-完成動作後自動email通知](https://medium.com/on-my-way-coding/%E5%88%9D%E6%8E%A2jenkins-%E6%87%89%E7%94%A8-%E5%AE%8C%E6%88%90%E5%8B%95%E4%BD%9C%E5%BE%8C%E8%87%AA%E5%8B%95email%E9%80%9A%E7%9F%A5-657b754f2895)

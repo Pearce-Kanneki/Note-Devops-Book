@@ -66,4 +66,5 @@ Jenkins Docker image說明：[Jenkins Container](https://hub.docker.com/r/jenkin
 
 ![Imgur](https://i.imgur.com/SGs2sKd.png)
 
-#### 3. 在`Global properties`裡設定Android\_Home 圖片修正中
+#### 3. 在`Global properties`裡設定Android\_SDK
+![Imgur](https://i.imgur.com/IeqgqNf.png)
